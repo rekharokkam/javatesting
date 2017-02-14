@@ -1,0 +1,1 @@
+This project is created to test basic java stand alone programmes.

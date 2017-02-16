@@ -58,6 +58,9 @@ class Rectangle extends Shape
 	}
 }
 
+/*
+ * This syntax of the class indicates That class is generics
+ */
 class GenericClass <E>
 {
 	List<E> junkList = new ArrayList<E>();
@@ -67,6 +70,9 @@ class GenericClass <E>
 		junkList.add(e);
 	}
 	
+	/*
+	 * This syntax indicates the method is generics
+	 */
 	<T> T returnNothing (List<T> something)
 	{
 		return something.get(0);
